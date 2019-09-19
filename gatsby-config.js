@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Blog by Ivan Sapozhnik',
     subtitle:
       'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     copyright: '© All rights reserved.',
@@ -16,6 +16,10 @@ module.exports = {
       {
         label: 'Articles',
         path: '/',
+      },
+      {
+        label: 'My work',
+        path: '/work/',
       },
       {
         label: 'About me',
@@ -27,7 +31,7 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'Ivan Sapozhnik',
       email: '#',
       telegram: '#',
       twitter: '#',
