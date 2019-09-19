@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: url,
     title: 'Blog by Ivan Sapozhnik',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'All about Swift programming, photography and motorcycling',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -25,14 +25,14 @@ module.exports = {
         label: 'About me',
         path: '/about/',
       },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
+      // {
+      //   label: 'Contact me',
+      //   path: '/contact/',
+      // },
     ],
     author: {
       name: 'Ivan Sapozhnik',
-      email: '#',
+      email: 'sapozhnik.ivan@gmail.com',
       telegram: '#',
       twitter: '#',
       github: '#',
