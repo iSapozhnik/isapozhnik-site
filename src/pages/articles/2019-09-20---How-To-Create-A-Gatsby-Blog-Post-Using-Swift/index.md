@@ -21,4 +21,4 @@ As an iOS developer I've decided to use Swift programming language for this purp
 
 #### Before you start
 
-Make sure you have the latest version of Swift installed. You can check it by using command `swift --version`. Now create a new directory (in my case it's *GatsbyArticlesMaker*)we need to initialize a basic Package structure by calling `swift package init --type executable`
+Make sure you have the latest version of Swift installed. You can check it by using command `swift --version`. Now create a new directory (in my case it's *GatsbyArticlesMaker*) navigate to it. The next step is to initialize a basic Package structure by calling `swift package init --type executable`. Keep in mind that this command will create a package with the same name as your directory.
