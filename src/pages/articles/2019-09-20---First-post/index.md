@@ -1,13 +1,12 @@
 ---
-title: Upgraded to Gatsby v2
-date: "2018-10-18T16:51:00.000Z"
+title: let personalSite = Site()
+date: "2019-09-20T16:51:00.000Z"
 layout: post
-draft: true
+draft: false
 path: "/posts/upgraded-to-gatsby-v2/"
-category: "Gatsby"
+category: "Blog"
 tags:
-  - "Gatsby"
-  - "Web Development"
+  - "lifestyle"
 description: "This starter has been forked and upgraded to Gatsby v2"
 ---
 

@@ -33,11 +33,11 @@ module.exports = {
     author: {
       name: 'Ivan Sapozhnik',
       email: 'sapozhnik.ivan@gmail.com',
-      telegram: '#',
-      twitter: '#',
+      // telegram: '#',
+      // twitter: '#',
       github: '#',
-      rss: '#',
-      vk: '#',
+      // rss: '#',
+      // vk: '#',
     },
   },
   plugins: [
