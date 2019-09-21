@@ -14,30 +14,35 @@ class Post extends React.Component {
     const { slug, categorySlug } = this.props.data.node.fields
 
     return (
-      <div className="post">
-        <div className="post__meta">
-          <time
-            className="post__meta-time"
-            dateTime={moment(date).format('MMMM D, YYYY')}
-          >
-            {moment(date).format('MMMM YYYY')}
-          </time>
-          <span className="post__meta-divider" />
-          <span className="post__meta-category" key={categorySlug}>
-            <Link to={categorySlug} className="post__meta-category-link">
-              {category}
-            </Link>
-          </span>
+      <div className="thumbpost">
+        <div className="thumbpost-thumb">
+              aaa
         </div>
-        <h2 className="post__title">
-          <Link className="post__title-link" to={slug}>
-            {title}
+        <div className="thumbpost-post">
+          <div className="thumbpost-post__meta">
+            <time
+              className="thumbpost-post__meta-time"
+              dateTime={moment(date).format('MMMM D, YYYY')}
+            >
+              {moment(date).format('MMMM YYYY')}
+            </time>
+            <span className="thumbpost-post__meta-divider" />
+            <span className="thumbpost-post__meta-category" key={categorySlug}>
+              <Link to={categorySlug} className="thumbpost-post__meta-category-link">
+                {category}
+              </Link>
+            </span>
+          </div>
+          <h2 className="thumbpost-post__title">
+            <Link className="thumbpost-post__title-link" to={slug}>
+              {title}
+            </Link>
+          </h2>
+          <p className="pthumbpost-post__description">{description}</p>
+          <Link className="thumbpost-post__readmore" to={slug}>
+            Read
           </Link>
-        </h2>
-        <p className="post__description">{description}</p>
-        <Link className="post__readmore" to={slug}>
-          Read
-        </Link>
+        </div>
       </div>
     )
   }
