@@ -175,7 +175,7 @@ const cfg = {
   ],
 };
 
-if (process.env.CONTEXT === "deploy-preview") {
+if (process.env.CONTEXT === "production") {
   const googleAnalyticsCfg = {
       resolve: 'gatsby-plugin-google-analytics',
       options: { 
