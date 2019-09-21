@@ -8,6 +8,7 @@ class Links extends React.Component {
     const links = {
       github: author.github,
       email: author.email,
+      twitter: author.twitter
     }
 
     return (

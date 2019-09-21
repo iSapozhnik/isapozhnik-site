@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://isapozhnik.com'
 
 module.exports = {
   siteMetadata: {
@@ -18,24 +18,24 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'My work',
+        label: 'Apps',
+        path: '/apps/',
+      },
+      {
+        label: 'Open source',
         path: '/work/',
       },
       {
         label: 'About me',
         path: '/about/',
       },
-      // {
-      //   label: 'Contact me',
-      //   path: '/contact/',
-      // },
     ],
     author: {
       name: 'Ivan Sapozhnik',
       email: 'sapozhnik.ivan@gmail.com',
       // telegram: '#',
-      // twitter: '#',
-      // github: '#',
+      twitter: 'isapozhnik',
+      github: 'iSapozhnik',
       // rss: '#',
       // vk: '#',
     },
