@@ -4,10 +4,16 @@ layout: page
 path: "/work"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+## Haptico ![](https://img.shields.io/badge/GitHub-266-brightgreen)
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./1.jpg)
+Haptico is easy to use iOS haptic feedback generator. Besides default haptic feedbacks it can play patterns!
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+![](./Haptico.png)
+[Read more](https://github.com/iSapozhnik/Haptico)
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+## Segmented Progress View ![](https://img.shields.io/badge/GitHub-69-brightgreen)
+
+🔘🔘🔘⚪️⚪️ Simple Instagram-like segmented progress view with completion handler and different time intervals for each segment
+
+![](./ProgressView.png)
+[Read more](https://github.com/iSapozhnik/SegmentedProgressView)
