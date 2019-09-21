@@ -177,4 +177,16 @@ module.exports = {
       },
     },
   ],
+};
+
+const prodEnv = "production";
+
+if (process.env.CONTEXT === prodEnv) {
+  const googleAnalyticsCfg = {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: { 
+        trackingId: 'UA-68252706-5',
+      },
+  };
+  cfg.plugins.push(googleAnalyticsCfg);
 }
