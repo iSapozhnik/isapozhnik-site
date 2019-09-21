@@ -3,7 +3,7 @@ const pxtorem = require('postcss-pxtorem')
 
 const url = 'https://isapozhnik.com'
 
-module.exports = {
+const cfg = {
   siteMetadata: {
     url,
     siteUrl: url,
@@ -127,10 +127,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
-    },
-    {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: ['roboto:400,400i,500,700'],
@@ -177,4 +173,16 @@ module.exports = {
       },
     },
   ],
+};
+
+if (process.env.CONTEXT === "deploy-preview") {
+  const googleAnalyticsCfg = {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: { 
+        trackingId: 'UA-68252706-5',
+      },
+  };
+  cfg.plugins.push(googleAnalyticsCfg);
 }
+
+module.exports = cfg;
