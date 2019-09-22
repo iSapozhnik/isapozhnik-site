@@ -14,7 +14,7 @@ description: "What is Design System? How does it help to develop a product? In t
 
 ![](./design-system.png)
 
-In this post I will explain what is a Design System and how can a developer benefit from using it. Let's start
+In this post I will explain what is a Design System and how can a developer benefit from using it. Let's start 🚀
 
 ## Table of Contents
 * [So what is a Design system?](#so-what-is-a-design-system)
