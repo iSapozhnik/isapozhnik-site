@@ -17,11 +17,11 @@ class Post extends React.Component {
 
     return (
       <div className="thumbpost">
-        <Img fixed={this.props.data.node.frontmatter.thumb.childImageSharp.fixed} />
+        {/* <Img fixed={this.props.data.node.frontmatter.thumb.childImageSharp.fixed} /> */}
         {/* <Img fixed={this.props.data.node.frontmatter.childImageSharp} /> */}
 
         <img
-            src=""//{thumb.childImageSharp.fixed.src}
+            src={thumb.childImageSharp.fixed.src}
             className="thumbpost-thumb"
             width="48"
             height="48"
