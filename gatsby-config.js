@@ -175,7 +175,9 @@ const cfg = {
   ],
 };
 
-if (process.env.CONTEXT === "production") {
+const prodEnv = "production";
+
+if (process.env.CONTEXT === prodEnv) {
   const googleAnalyticsCfg = {
       resolve: 'gatsby-plugin-google-analytics',
       options: { 
