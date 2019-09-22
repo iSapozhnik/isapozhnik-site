@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
 import './style.scss'
+import Img from "gatsby-image"
 
 class Post extends React.Component {
   render() {
@@ -10,14 +11,22 @@ class Post extends React.Component {
       date,
       category,
       description,
+      thumb
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
 
     return (
       <div className="thumbpost">
-        <div className="thumbpost-thumb">
-              aaa
-        </div>
+        <Img fixed={this.props.data.node.frontmatter.thumb.childImageSharp.fixed} />
+        {/* <Img fixed={this.props.data.node.frontmatter.childImageSharp} /> */}
+
+        <img
+            src=""//{thumb.childImageSharp.fixed.src}
+            className="thumbpost-thumb"
+            width="48"
+            height="48"
+        />
+        {/* </div> */}
         <div className="thumbpost-post">
           <div className="thumbpost-post__meta">
             <time

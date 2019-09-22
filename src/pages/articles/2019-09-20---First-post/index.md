@@ -2,12 +2,13 @@
 title: let personalSite = Site()
 date: "2019-09-20T16:51:00.000Z"
 layout: post
+thumb: "./swift.jpeg"
 draft: false
 path: "/posts/upgraded-to-gatsby-v2/"
 category: "Blog"
 tags:
   - "lifestyle"
-description: "This starter has been forked and upgraded to Gatsby v2"
+description: "jhgjkhg"
 ---
 
 This is a Gatsby v2 compatible version of the
