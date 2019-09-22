@@ -7,4 +7,4 @@
 
 # isapozhnik-site
 
-This is a source code for my personla web-site made with [Gatsby](https://github.com/gatsbyjs/gatsby) and [Lumen](https://github.com/alxshelepenok/gatsby-starter-lumen) starter deployed with [Netligy](https://www.netlify.com/) <img src="https://simpleicons.org/icons/netlify.svg" alt="netlify" width="16" height="16">
+This is a source code for my personla web-site made with [Gatsby](https://github.com/gatsbyjs/gatsby) and [Lumen](https://github.com/alxshelepenok/gatsby-starter-lumen) starter deployed with [Netlify](https://www.netlify.com/) <img src="https://simpleicons.org/icons/netlify.svg" alt="netlify" width="16" height="16">
