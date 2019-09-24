@@ -3,12 +3,19 @@ import { Link } from 'gatsby'
 import moment from 'moment'
 import Disqus from '../Disqus/Disqus'
 import './style.scss'
+import Helmet from 'react-helmet'
+
+// const { title, subtitle } = this.props.data.site.siteMetadata
 
 class PostTemplateDetails extends React.Component {
   render() {
-    const { subtitle, author } = this.props.data.site.siteMetadata
+    const { subtitle, author, title } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
+    const rootUrl = 'https://www.isapozhnik.com'
+    const {
+      thumb
+    } = post.frontmatter
 
     const homeBlock = (
       <div>
@@ -44,6 +51,18 @@ class PostTemplateDetails extends React.Component {
 
     return (
       <div>
+      <Helmet>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta property="og:title" content={`${title} | ${subtitle}`}/>
+        <meta property="og:description" content={post.excerpt}/>
+        <meta property="og:image" content={`${rootUrl}${thumb.childImageSharp.fixed.src}`}/>
+        <meta property="og:url" content={`${rootUrl}${post.fields.slug}`}/>
+        <meta name="twitter:card" content="summary"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:locale" content="en_US"/>
+        <link rel="canonical" href={`${rootUrl}${post.fields.slug}`}/>
+      </Helmet>
         {homeBlock}
         <div className="post-single">
           <div className="post-single__inner">
