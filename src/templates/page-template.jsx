@@ -53,6 +53,13 @@ export const pageQuery = graphql`
         title
         date
         description
+        thumb {
+          childImageSharp {
+            fixed(width: 96, height: 96) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     }
   }
