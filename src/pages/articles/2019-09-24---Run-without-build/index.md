@@ -11,12 +11,10 @@ tags:
   - "development"
   - "Xcode"
   - "shortcut"
-description: "Little trick to boost your development productivity with Xcode"
+description: "A little trick to boost your development productivity with Xcode"
 ---
 
-<!-- ![](./unicorno.jpg) -->
-
-We all know this shortcut `CMD+R` to build and run our app. But what if we just need to debug something which require us to **run** the app? We don't want to build it each and every time! Well, luckily, there is another shortcut we can use. 
+We all know this shortcut `CMD+R` to build and run our app. But what if we just need to debug something which requires us to **run** the app? We don't want to build it each and every time! Well, luckily, there is another shortcut we can use. 
 
 3...<br>
 2....<br>
