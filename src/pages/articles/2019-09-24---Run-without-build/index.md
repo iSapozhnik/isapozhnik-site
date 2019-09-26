@@ -1,5 +1,5 @@
 ---
-title: Hot to run a build faster? ⏳
+title: How to run a build faster? ⏳
 date: "2019-09-24T16:51:00.000Z"
 layout: post
 thumb: "./tips.png"
