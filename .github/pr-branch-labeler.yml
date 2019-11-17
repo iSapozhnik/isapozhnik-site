@@ -1,0 +1,8 @@
+Blog post:
+  head: "post/*"
+
+Spell check needed:
+  head: "post/*"
+
+Site improvement:
+  head: "feature/*"
