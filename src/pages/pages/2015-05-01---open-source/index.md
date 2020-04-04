@@ -30,3 +30,11 @@ Location picker 🗺 similar to Apple's Reminders app and Find my friend app
 UIViewController which implements switching states: Loading, No Data, Error and Content
 
 [Read more](https://github.com/iSapozhnik/StatesController)
+
+## Popover ![GitHub stars](https://img.shields.io/github/stars/isapozhnik/Popover?style=social)
+
+Fully customizibe drop-in replacement for NSPopover on Mac OS
+
+![](./mac-popover.png)
+[Read more](https://github.com/iSapozhnik/Popover)
+
