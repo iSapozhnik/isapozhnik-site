@@ -1,5 +1,5 @@
 ---
-title: NSStatusItem, custom view inside, NSMenu and right-clicks
+title: NSStatusItem, a custom view inside, NSMenu and right-clicks
 date: "2020-04-07T16:51:00.000Z"
 layout: post
 thumb: "./popover.png"
