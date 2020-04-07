@@ -14,7 +14,8 @@ tags:
   - "NSWindow"
   - "NSWindowController"
   - "Swift"
-description: "Custom view inside NSStatusItem and processing of left and right mouse clicks"
+  - "Cocoa"
+description: "Implementing a custom NSView inside NSStatusItem and processing of left and right mouse clicks."
 ---
 
 ![](popover.png)
