@@ -4,9 +4,16 @@ layout: page
 path: "/work"
 ---
 
-## [Mac] Popover ![GitHub stars](https://img.shields.io/github/stars/isapozhnik/Popover?style=social)
+## [macOS] Menu ![GitHub stars](https://img.shields.io/github/stars/isapozhnik/Menu?style=social)
 
-Fully customizibe drop-in replacement for NSPopover on Mac OS
+Fully customizable macOS drop-down menu with 30 settings you can play with!
+
+![](./menu.png)
+[Read more](https://github.com/iSapozhnik/Menu)
+
+## [macOS] Popover ![GitHub stars](https://img.shields.io/github/stars/isapozhnik/Popover?style=social)
+
+Fully customizibe drop-in replacement for NSPopover on macOS
 
 ![](./mac-popover.png)
 [Read more](https://github.com/iSapozhnik/Popover)
