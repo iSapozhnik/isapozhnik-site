@@ -5,7 +5,7 @@ layout: post
 thumb: "./rate-me.png"
 draft: false
 path: "/articles/app-rating/"
-category: "Blog"
+category: "Tips"
 tags:
   - "Rating"
   - "macOS"
@@ -16,9 +16,7 @@ tags:
 description: "How to instantly improve you app's rating without getting one stars ✨"
 ---
 
-![](rate-me.png)
-
-# Improve your app rating
+![](app-rating.png)
 
 When we releasing a new app the last thing we want to see is either bad reviews or no reviews at all. Unfortunately most of the time a user will write a negative review if he does not like something or if something does not work as expected. Only a few percents of all your app users will write positive feedback by themselves. Luckily since iOS 10.3 and macOS 10.14 (why so late?!) Apple has something for us:  `SKStoreReviewController`.
 
