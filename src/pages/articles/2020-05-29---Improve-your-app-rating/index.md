@@ -13,7 +13,7 @@ tags:
   - "SKStoreReviewController"
   - "Swift"
   - "Cocoa"
-description: "How to instantly improve you app's rating without getting one stars ✨"
+description: "How to instantly improve your app rating without getting one stars ✨"
 ---
 
 ![](app-rating.png)
@@ -27,7 +27,8 @@ While using `SKStoreReviewController` we are fully responsible when to show a re
 
 ## Reliability 
 Even though on iOS it works pretty well and I haven’t heard of any issues with that class, on macOS Mojave and Catalina it’s not that smooth.
-![](https://pbs.twimg.com/media/EYtJ8GoWsAAeP3H?format=jpg&name=small)
+<!--![](https://pbs.twimg.com/media/EYtJ8GoWsAAeP3H?format=jpg&name=small)
+--><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’ve had a couple of users reporting that SKStoreReviewController is being presented either way too often or in some sort of loop in macOS (Catalyst). Has anyone ever seen this issue? Maybe <a href="https://twitter.com/stroughtonsmith?ref_src=twsrc%5Etfw">@stroughtonsmith</a>? I can’t seem to find anything online and I’ve never faced it myself 😔 <a href="https://t.co/qrFwTsNFK2">pic.twitter.com/qrFwTsNFK2</a></p>&mdash; Xavi Moll (@xmollv) <a href="https://twitter.com/xmollv/status/1264185474299703298?ref_src=twsrc%5Etfw">May 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 People had some bad ratings just because `SKStoreReviewController`  was presented either too often or in some cases sort of a loop. Another problem was in macOS Mojave and while presenting review prompt instead of an app name sometimes it was just a `(null)`. Even though it’s not a super critical issue but overall it makes a kind of a feeling that the app is buggy.
 
 ## But what we, developers, can do?
