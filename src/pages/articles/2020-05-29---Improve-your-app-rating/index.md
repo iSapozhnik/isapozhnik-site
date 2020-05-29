@@ -27,8 +27,8 @@ While using `SKStoreReviewController` we are fully responsible when to show a re
 
 ## Reliability 
 Even though on iOS it works pretty well and I haven’t heard of any issues with that class, on macOS Mojave and Catalina it’s not that smooth.
-<!--![](https://pbs.twimg.com/media/EYtJ8GoWsAAeP3H?format=jpg&name=small)
---><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’ve had a couple of users reporting that SKStoreReviewController is being presented either way too often or in some sort of loop in macOS (Catalyst). Has anyone ever seen this issue? Maybe <a href="https://twitter.com/stroughtonsmith?ref_src=twsrc%5Etfw">@stroughtonsmith</a>? I can’t seem to find anything online and I’ve never faced it myself 😔 <a href="https://t.co/qrFwTsNFK2">pic.twitter.com/qrFwTsNFK2</a></p>&mdash; Xavi Moll (@xmollv) <a href="https://twitter.com/xmollv/status/1264185474299703298?ref_src=twsrc%5Etfw">May 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+![](twitt.png)
+
 People had some bad ratings just because `SKStoreReviewController`  was presented either too often or in some cases sort of a loop. Another problem was in macOS Mojave and while presenting review prompt instead of an app name sometimes it was just a `(null)`. Even though it’s not a super critical issue but overall it makes a kind of a feeling that the app is buggy.
 
 ## But what we, developers, can do?
@@ -37,7 +37,7 @@ Well, luckily for us Apple has provided another way to review the app. We can de
 I’m going to start by implementing this little window
 ![](1.png)
 
-I didn’t want to invent the wheel so I decided to use the Rating component from Apple. Here is an example code: [Start Developing iOS Apps (Swift): Implement a Custom Control](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ImplementingACustomControl.html). As you can see since now we are more flexible in terms of UI I have also added `Don't ask again` checkbox. It’s a nice little feature that the user can benefit from. 
+I didn’t want to invent the wheel so I decided to use the Rating component from Apple. Here is an example code: [Implement a Custom Control](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ImplementingACustomControl.html). As you can see since now we are more flexible in terms of UI I have also added `Don't ask again` checkbox. It’s a nice little feature that the user can benefit from. 
 
 Now if the user rates our app 4 and higher we can thank him and ask to review the app in the store. From my experience, the majority of users will proceed next and give the same rating on the App Store. 
 
@@ -49,7 +49,7 @@ But what if for some reason the user didn’t like that app or something did not
 
 Now, as you can see, instead of letting our user put all his anger into a bad review on the Store we can try to ask him what exactly we should improve. Obviously, this step will not protect us 100% from bad reviews but at least will help us understand better our users and their needs. 
 
-The last step would be to send this data to us. If your app is working online and is doing some network requests it should not be a big deal to add one more endpoint in your backend. But what if you are developing an offline app? In my case,  [Altum (@AltumApp) | Twitter](https://twitter.com/AltumApp?s=20) is exactly this kind of an app. I’m pretty sure there are other ways to handle user input but I decided to use [Email Delivery Service](https://sendgrid.com) service. The service offers tons of free emails and has some really simple API. In the end, all the feedback will end up in our email box, sweet! And one more thing. Since now you are in charge of what we are going to send to the service you can include a bunch of technical information and debug. From the top of my mind:
+The last step would be to send this data to us. If your app is working online and is doing some network requests it should not be a big deal to add one more endpoint to your backend. But what if you are developing an offline app? In my case,  [Altum](https://twitter.com/AltumApp) is exactly this kind of an app. I’m pretty sure there are other ways to handle user input but I decided to use [Sendgrid](https://sendgrid.com) service. The service offers tons of free emails and has some really simple API. In the end, all the feedback will end up in our email box, sweet! And one more thing. Since now you are in charge of what we are going to send to the Sendgrid service you can include a bunch of technical and debug information. From the top of my mind:
 
 - OS version
 - App version
@@ -57,4 +57,4 @@ The last step would be to send this data to us. If your app is working online an
 
 Even though this approach requires a bit more work and not just fire-and-forget, in the end, both parties can benefit from it. The developer will have a chance to fix an issue before it appears on the Store. The user will have a chance to communicate all his problems directly to a dev team.
 
-I hope this was helpful and if you have any questions you can always reach me at Twitter [@iSapozhnik](https://twitter.com/iSapozhnik) 😉
+I hope this was helpful and if you have any questions you can always reach me out at Twitter [@iSapozhnik](https://twitter.com/iSapozhnik) 😉
