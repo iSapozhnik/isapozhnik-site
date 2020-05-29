@@ -43,7 +43,7 @@ Now if the user rates our app 4 and higher we can thank him and ask to review th
 
 ![](2.png)
 
-But what if for some reason the user didn’t like that app or something did not work as expected or any other reason which makes him rate your awesome app less than 4? At this moment we can turn his negative feedback in something useful for us!
+But what if for some reason the user didn’t like that app or something did not work as expected or any other reason which makes him rate your awesome app less than 4? At this moment we can turn his negative feedback into something useful for us!
 
 ![](3.png)
 
