@@ -58,9 +58,12 @@ class PostTemplateDetails extends React.Component {
         <meta property="og:description" content={post.excerpt}/>
         <meta property="og:image" content={`${rootUrl}${thumb.childImageSharp.fixed.src}`}/>
         <meta property="og:url" content={`${rootUrl}${post.fields.slug}`}/>
-        <meta name="twitter:card" content="summary"/>
         <meta property="og:type" content="article"/>
         <meta property="og:locale" content="en_US"/>
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={post.excerpt} />
+        <meta name="twitter:description" content="View the album on Flickr." />
+        <meta name="twitter:image" content={`${rootUrl}${thumb.childImageSharp.fixed.src}`}/>
         <link rel="canonical" href={`${rootUrl}${post.fields.slug}`}/>
       </Helmet>
         {homeBlock}
