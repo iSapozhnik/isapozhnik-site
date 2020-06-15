@@ -60,10 +60,11 @@ class PostTemplateDetails extends React.Component {
         <meta property="og:url" content={`${rootUrl}${post.fields.slug}`}/>
         <meta property="og:type" content="article"/>
         <meta property="og:locale" content="en_US"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:title" content={post.excerpt} />
-        <meta name="twitter:description" content="View the album on Flickr." />
-        <meta name="twitter:image" content={`${rootUrl}${thumb.childImageSharp.fixed.src}`}/>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:description" content="Apple Inc. is preparing to announce a shift to its own main processors in Mac computers, replacing chips from Intel Corp., as early as this month at its annual developer conference, according to people familiar with the plans.">
+        <meta name="twitter:image" content="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMizYf1MSZgs/v1/1200x800.jpg">
+        <meta name="twitter:site" content="@technology">
+        <meta name="twitter:title" content="Apple Plans to Announce Move to Its Own Mac Chips at WWDC">
         <link rel="canonical" href={`${rootUrl}${post.fields.slug}`}/>
       </Helmet>
         {homeBlock}
