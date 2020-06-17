@@ -3,6 +3,7 @@ title: 6 ways of launching deeplinks on iOS simulator
 date: "2020-06-16T17:04:37+0200"
 layout: post
 thumb: "./thumb1.png"
+featured: "./thumb1.png"
 draft: false
 path: "/articles/6-ways-of-launching-deeplinks-on-ios-simulator/"
 category: "Blog"
