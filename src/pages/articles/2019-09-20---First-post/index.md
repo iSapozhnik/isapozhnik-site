@@ -3,7 +3,7 @@ title: let personalSite = Site()
 date: "2019-09-20T16:51:00.000Z"
 layout: post
 thumb: "./unicorno.jpg"
-featured: "unicorno.jpg"
+featured: "./unicorno.jpg"
 draft: false
 path: "/posts/personal-site/"
 category: "Blog"
