@@ -3,7 +3,7 @@ title: How to run an app faster? ⏳
 date: "2019-09-24T16:51:00.000Z"
 layout: post
 thumb: "./preview.png"
-featured: "preview.png"
+featured: "./preview.png"
 draft: false
 path: "/posts/build-faster/"
 category: "Tips"
