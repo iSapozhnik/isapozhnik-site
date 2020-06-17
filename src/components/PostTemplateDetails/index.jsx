@@ -54,22 +54,22 @@ class PostTemplateDetails extends React.Component {
       <Helmet>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta property="og:title" content={`${title} | ${subtitle}`}/>
+        {/* <meta property="og:title" content={`${title} | ${subtitle}`}/>
         <meta property="og:description" content={post.excerpt}/>
         <meta property="og:image" content={`${rootUrl}${thumb.childImageSharp.fixed.src}`}/>
         <meta property="og:url" content={`${rootUrl}${post.fields.slug}`}/>
         <meta property="og:type" content="article"/>
-        <meta property="og:locale" content="en_US"/>
+        <meta property="og:locale" content="en_US"/> */}
 {/*         
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content={`post.excerpt`} />
         <meta name="twitter:description" content="View the album on Flickr." />
         <meta name="twitter:image" content={`${rootUrl}${thumb.childImageSharp.fixed.src}`}/> */}
 
-        <meta name="twitter:card" content="summary_large_image"/>
+        {/* <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:description" content="Description"/>
         <meta name="twitter:image" content={`${rootUrl}${thumb.childImageSharp.fixed.src}`}/>
-        <meta name="twitter:title" content={post.frontmatter.title}/>
+        <meta name="twitter:title" content={post.frontmatter.title}/> */}
         <link rel="canonical" href={`${rootUrl}${post.fields.slug}`}/>
       </Helmet>
         {homeBlock}
