@@ -3,6 +3,7 @@ title: Improve your app rating
 date: "2020-05-29T17:00:00.000Z"
 layout: post
 thumb: "./rate-me.png"
+featured: "./rate-me.png"
 draft: false
 path: "/articles/app-rating/"
 category: "Tips"

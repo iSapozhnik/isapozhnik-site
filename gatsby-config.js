@@ -9,8 +9,9 @@ const cfg = {
     siteUrl: url,
     title: 'Blog by Ivan Sapozhnik',
     subtitle:
-      'All about Swift programming, photography and motorcycling',
+      'All about Swift programming',
     copyright: '© All rights reserved.',
+    keywords: 'ios, programming, swift, xcode, indie, developer, iphone, ipad, mac, macOS, iPadOS, watchOS',
     disqusShortname: '',
     menu: [
       {
