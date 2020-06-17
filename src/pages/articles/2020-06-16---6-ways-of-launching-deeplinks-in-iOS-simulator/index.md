@@ -8,7 +8,10 @@ draft: false
 path: "/articles/6-ways-of-launching-deeplinks-on-ios-simulator/"
 category: "Blog"
 tags:
-  - "<your tag>"
+  - "deeplinks"
+  - "macOS"
+  - "universal links"
+  - "Swift"
 description: "How many ways do you know? I'm going to walk through the most obvious and the least obvious ways."
 ---
 
