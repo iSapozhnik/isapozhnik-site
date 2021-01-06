@@ -13,7 +13,7 @@ tags:
   - "scrollWheel"
   - "swift"
   - "macOS"
-description: "Implementing horizontal scroll inside NSSCrollView while the user is doing vertical scroll whith the mouse wheel"
+description: "Implementing horizontal scroll inside NSScrollView while the user is doing vertical scroll with the mouse wheel"
 ---
 
 ![](hero.png)
