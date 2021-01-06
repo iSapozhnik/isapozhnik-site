@@ -6,7 +6,7 @@ featured: "./hero.png"
 thumb: "./thumb.png"
 draft: false
 path: "/articles/how-to-swap-horizontal-and-vertical-scroll-in-nsscrollview/"
-category: "Blog"
+category: "Tips"
 tags:
   - "NSScrollView"
   - "trackpad"
